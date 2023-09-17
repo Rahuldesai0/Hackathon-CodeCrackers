@@ -5,13 +5,17 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    background-image: url('back_img.jpg');
+  }
   .logo{
-    color: aqua;
+    color: lime;
     margin-bottom: 30px;
+    font-size: larger;
     text-align: center;
   }
   .wrapper .sidebar{
-    background-color: blue;
+    background-color: green;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,16 +28,16 @@
     display: block;
     color: white;
     padding: 10px;
-    border-bottom: 1px solid navy;
-    font-size: medium;
+    border-bottom: 1px solid olive;
+    font-size: 25px;
     text-decoration: none;
   }
 
   .wrapper .sidebar ul li a:hover,
   .wrapper .sidebar ul li a.active{
-    color: blue;
-    background-color: skyblue;
-    border-right: 2px solid navy;
+    color: green;
+    background-color: lime;
+    border-right: 2px solid olive;
   }
 
   .wrapper .sidebar ul li a:hover::before,
@@ -48,7 +52,7 @@
   }
 
   .wrapper .section .top_navbar{
-    background-color: blue;
+    background-color: green;
     height: 50px;
     display: flex;
     align-items: center;
@@ -59,7 +63,7 @@
     font-size: larger;
   }
   .wrapper .section .top_navbar .icon a:hover{
-    color: skyblue;
+    color: lime;
   }
   body.active .wrapper .sidebar{
     left: -225px;
@@ -73,7 +77,7 @@
   }
 
   .wrapper .section .top_navbar .icons{
-    margin-left: 30%;
+    margin-left: 20%;
     color: white;
     font-size: larger;
   }
@@ -84,19 +88,52 @@
   }
 
   .wrapper .section .top_navbar .icons i:hover{
-    color: skyblue;
+    color: lime;
   }
 
   .content{
-    background-color: rgb(204, 204, 203);
     margin-left: 200px;
-    height: 100px;
     padding: 20px;
-
+    color: white;
   }
   .top_logo{
-    color: cyan;
+    color: lime;
     margin-left: 40%;
-    font-size: larger;
+    font-size: 30px;
     text-align: center;
+  }
+  .welcome_img{
+    color: white;
+    text-shadow: 0 0 5px black;
+    width: 90%;
+    height: 700%;
+  }
+
+  .welcome_img h1{
+    padding-top: 7%;
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  .content .what{
+    position: absolute;
+    margin-top: 10px;
+    text-decoration: double;
+    font-size: 20px;
+    width: 40%;
+  }
+
+  .content .how{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 42%;
+    text-decoration: double;
+    font-size: 20px;
+    width: 40%;
+  }
+  .content p{
+    margin-top: 40%;
+    text-decoration: double;
+    font-size: 30px;
+    width: 90%;
   }
