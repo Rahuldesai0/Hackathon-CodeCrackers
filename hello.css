@@ -40,7 +40,7 @@ body {
 .wrapper .sidebar ul li a.active {
   color: #002203;
   background-color: #15b946;
-  border-right: 2px solid olive;
+  border-right: 2px solid green;
 }
 
 .wrapper .sidebar ul li a:hover::before,
@@ -65,12 +65,12 @@ body {
   padding: 0 30px;
 }
 
-.wrapper .section .top_navbar .icon a {
+.wrapper .section .top_navbar .icon i {
   color: white;
   font-size: larger;
 }
 
-.wrapper .section .top_navbar .icon a:hover {
+.wrapper .section .top_navbar .icon i:hover {
   color: #15b946;
 }
 
