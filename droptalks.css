@@ -126,23 +126,26 @@ body.active .wrapper .contact .contact-content .by {
   margin-top: -7%;
 }
 
-.wrapper .section .top_navbar .icons {
-  margin-left: 25%;
+.wrapper .section .top_navbar .login-register{
+  margin-left: 32%;
   color: white;
-  font-size: larger;
+  font-size: 15;
+  font-family: 'Dosis', sans-serif;
 }
 
-body.active .wrapper .section .top_navbar .icons {
+body.active .wrapper .section .top_navbar .login-register {
   margin-left: 30%;
 }
 
-.wrapper .section .top_navbar .icons i {
-  margin-left: 10px;
-  margin-right: 10px;
+.wrapper .section .top_navbar .login-register a{
+  height: 100%;
+  margin: 0;
+  padding: 15px;
 }
 
-.wrapper .section .top_navbar .icons i:hover {
-  color: #15b946;
+.wrapper .section .top_navbar .login-register a:hover {
+  background-color: #15b946;
+  color: #002203;
 }
 
 .content {
